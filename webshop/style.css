@@ -1,0 +1,99 @@
+body {
+    background: rgb(243, 186, 121);
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Imperial Script", serif;
+    font-size: 60px;
+    color:rgb(71, 53, 36); 
+}
+
+header, footer {
+    text-align: center;
+    font-family: "Imperial Script", serif;
+    font-size: 25px;
+    padding: 20px;
+}
+
+
+.post-container {
+    background-color: rgb(250, 204, 151);
+    border-radius: 15px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.image-wrap {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.product {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.product img {
+    width: auto;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.product .price {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: rgb(71, 53, 36);
+    margin-top: 5px;
+}
+
+.product:hover {
+    cursor: pointer;
+}
+
+
+
+.hartje {
+    color: rgb(70, 45, 21);
+    font-size: 50px;
+    margin: 0;
+}
+
+.hartje:hover {
+    font-size: 100px;
+}
+
+
+button.shop-button {
+    background-color: #8a5b39;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.shop-button:hover {
+    background-color: #9e7046;
+}
+
+
+.beige, .bruin {
+    font-family: "Tangerine", serif;
+    color: rgb(71, 53, 36);
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+footer {
+    font-family: "Imperial Script", serif;
+    font-size: 25px;
+    margin-top: 30px;
+    color: #8a5b39;
+}
